@@ -5,7 +5,7 @@ package bubblesort;
  * @create 2020-09-15-20:23
  */
 public class BubbleSort {
-    public static void bubbleSort(int[] arr) {
+    public static void sort(int[] arr) {
 
         for (int i = 0; i < arr.length-1; ++i) {
             boolean sortedFlag = false;

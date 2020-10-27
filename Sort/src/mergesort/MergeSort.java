@@ -5,7 +5,7 @@ package mergesort;
  * @create 2020-09-15-21:25
  */
 public class MergeSort {
-    public static void mergeSort(int[] arr) {
+    public static void sort(int[] arr) {
         _mergeSort(arr, 0, arr.length-1);
 
     }

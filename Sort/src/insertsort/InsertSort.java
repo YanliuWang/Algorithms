@@ -5,7 +5,7 @@ package insertsort;
  * @create 2020-09-15-20:55
  */
 public class InsertSort {
-    public static void insertSort(int[] arr) {
+    public static void sort(int[] arr) {
         for (int i = 1; i < arr.length; ++i) {
 
             int key = arr[i];
